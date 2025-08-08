@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002389305159))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002734717816))
 LOGGER_ID = LOG_GROUP_ID
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7604553933))
+OWNER_ID = int(getenv("OWNER_ID", 7995626429))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/l7n2co.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/l7n2co.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/st6utj.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/l7n2co.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/l7n2co.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
 
 
 def time_to_seconds(time):
