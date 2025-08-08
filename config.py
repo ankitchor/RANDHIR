@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ankitsingh12134/Queen_ankit123",
+    "https://github.com/ramavtarchauhan420/Jani_Haveli",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -41,9 +41,6 @@ GIT_TOKEN = getenv(
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+eDGuiLMGvO0zNmFl")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+eDGuiLMGvO0zNmFl")
-
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') 
-API_KEY = getenv("API_KEY", '30DxNexGenBots667d40')
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/74y7ob.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/74y7ob.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jrlhtb.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/yd51bx.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/yd51bx.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jrlhtb.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jrlhtb.jpg"
 
 
 def time_to_seconds(time):
